@@ -1,0 +1,30 @@
+body {
+  background-color:#00F9FF
+   ;
+}
+img {
+  position:center;
+  width:100%;
+}
+
+#navbar1 {
+  display:block;
+  position: sticky;
+  background-color: #f40c84df;
+  height: 30px;
+  padding: 2px 2px
+}
+
+#navbar1 > a{
+  max-width: none;
+  width:25%;
+  color:#FFCC00;
+  padding: 5px;
+  text-align: center;
+  font-weight: 1px;
+  font-family:cursive;
+  text-decoration:none;
+  text-shadow:2px 1px #050003;
+  margin:20px;
+
+}

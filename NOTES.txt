@@ -1,0 +1,5 @@
+RGB Colours
+Turquoise 	= #00F9FF	= RGB (0-249-255)
+Pink		= #F40C82	= RGB (244-12-130)
+Yellow		= #FFCC00	= RGB (255-204-0)
+Black		= #050003	= RGB (5-0-3)
