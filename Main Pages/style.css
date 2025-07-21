@@ -2,29 +2,55 @@ body {
   background-color:#00F9FF
    ;
 }
-img {
+
+
+
+#address-strip {
+  display: block;
+  background-color: #f40c84df;
+  height: 25px;
+  color: white;
+}
+
+#address-strip > h5{
+  font-family: cursive;
+  color:#FFCC00;
+  text-shadow: 1px 1px #050003;
   position:center;
-  width:100%;
+  text-align: center;
+  font-weight:lighter;
+
+}
+
+#address-strip > img{
+  height:25px;
+}
+
+
+#top-logo > img {
+  max-width:100%;
+  padding: 20px 0px;
 }
 
 #navbar1 {
   display:block;
+  max-width: 100%;
   position: sticky;
   background-color: #f40c84df;
   height: 30px;
-  padding: 2px 2px
+  
 }
 
 #navbar1 > a{
   max-width: none;
-  width:25%;
+  width:20%;
   color:#FFCC00;
-  padding: 5px;
+  padding: 80px;
   text-align: center;
   font-weight: 1px;
   font-family:cursive;
   text-decoration:none;
   text-shadow:2px 1px #050003;
-  margin:20px;
+  
 
 }
