@@ -55,8 +55,9 @@ body {
 #navbar1 > ul{
   display: inline-flex;
   width: auto;
-  padding-inline: 20%;
+  padding-inline:20%;
   justify-content:space-between;
+  gap:20px;
   align-items: center;
   list-style-type: none;
   text-decoration: none;
@@ -88,6 +89,7 @@ body {
   font-weight:bold;
 }
 
-#navabr > ul > li >a:hover{
-  background-color: #f40c84fc;
+#navabr > ul>a:hover{
+  color:#00F9FF;
+  background-color: #00F9FF;
 }
