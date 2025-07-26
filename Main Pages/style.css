@@ -64,6 +64,7 @@ body {
   color:#FFCC00;
   
   
+  
 }
 
 #navbar1 > ul > li{
@@ -79,7 +80,10 @@ body {
   justify-content: space-between;
   text-align: center;
   font-size:15px;
+}
 
+#navbar1 >ul>li:hover{
+  background-color: rgba(255, 255, 255, 0.423);
 }
 
 #navbar1 > ul > li > a{
@@ -89,7 +93,7 @@ body {
   font-weight:bold;
 }
 
-#navabr > ul>a:hover{
+#navabr > a:hover{
   color:#00F9FF;
   background-color: #00F9FF;
 }
