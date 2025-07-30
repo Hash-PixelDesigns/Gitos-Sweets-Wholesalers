@@ -1,23 +1,23 @@
-*{
-  padding:0px;
-  margin:0px;
-
-}
-
 
 body {
   background-color: #FFCC00;
-   
-
 }
 
 #top-logo > img {
-  width:100%;
+  display: block;
+  width: 100%;
+  background-color: #00F9FF;
+  padding: 10px 0px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #050003;
+  align-items: center;
   
 }
 
 /*--Top Address Bar --*/
 #address-strip {
+  width: auto;
   height: 20px;
   color:#f40c84df;
   margin:0px 0px;
@@ -34,7 +34,8 @@ body {
   text-align: center;
   font-weight:normal;
   padding: 3px 3px;
-  margin-top: -4px;
+  margin-top: -1px;
+  width:auto;
 }
 
 #address-strip > img{
@@ -44,26 +45,29 @@ body {
 
 /*--Nav Bar --*/
 #navbar1 {
-  display:flexbox;
+  display:block;
   width: 100%;
   background-color: #f40c84df;
   box-sizing: border-box;
   border-style: solid;
   border-width: 0.2px;
   border-color: #050003;
+  margin-top: 1.5px;
+  height:38px;
+  
 }
 
 #navbar1 > ul{
   display: inline-flex;
-  width: auto;
-  padding-inline:20%;
+  width: 100%;
+  padding:0px;
   justify-content:space-between;
-  gap:0px;
   align-items: center;
   list-style-type: none;
   text-decoration: none;
   color:#FFCC00;
-  
+  margin-top: 0px;
+  margin-bottom: 0px;
   
   
 }
@@ -102,8 +106,8 @@ body {
 
 /*--Background Image --*/
 #background-image>img{
-  background-image: url(images/CoverImages/Back4-Land+Strip.jpg);
-  width: 100%;
+ width: 100%;
+ 
 }
 
 
@@ -116,7 +120,7 @@ body {
 
 .info-container1 {
   display: flex;
-  position:absolute;
+  position:relative;
   justify-items: center;
   background-color: #ffffff7e;
   color: #000016;
@@ -125,15 +129,16 @@ body {
   margin: 20px 15px;
   font-family: cursive;
   font-size:small;
-  margin: -630px 600px;
+  margin: 600px 600px;
   padding:2px 20px;
 }
 
 #body-cover >p{
   display: block;
   background-color: rgba(255, 255, 255, 0.502);
-  display: flexbox;
+  display:block;
   position: center;
   justify-content: center;
+  
     
 }
