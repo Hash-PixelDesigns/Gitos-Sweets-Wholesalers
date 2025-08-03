@@ -141,9 +141,10 @@ body {
 /*--Footer --*/
 footer{
   display: block;
-  margin: 1560px 0px;
+  margin: 1545px 0px;
   background-color: #f40c84df;
   padding: 2px 2px;
+  padding-bottom: 20px;
   color: #FFCC00;
   text-align: center;
   text-shadow: 1px 1px#050003fb;
@@ -151,9 +152,28 @@ footer{
   font-size: medium;
 }
 
-footer>a href:hover{
+footer >a{
+  text-decoration: none;
+  color: #FFCC00;
+}
+
+footer>a :hover{
   color: #FFCC00;
   list-style: none;
+}
+
+/*--Footer 2 --*/
+footer2{
+  display: block;
+  margin: 30px 0px;
+  background-color: #f40c84df;
+  padding: 10px 2px;
+  padding-bottom: 20px;
+  color: #FFCC00;
+  text-align: center;
+  text-shadow: 1px 1px#050003fb;
+  font-family: cursive;
+  font-size: medium;
 }
 
 /*--Quote-Order Form --*/
@@ -165,17 +185,83 @@ footer>a href:hover{
 #order-form>input{
   padding: 5px;
   font-family:Arial, Helvetica, sans-serif;
-  width: 600px;
+  width: 500px;
 }
 
 #order-form> textarea{
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  width:900px;
+  width:850px;
   height: 500px;
  
 }
 
 #button1{
-  padding: 5px;
+  padding: 5px 50px;
+  background-color: #f40c84df;
+  border-radius: 50px;
+  color: #FFCC00;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 2px 2px #050003;
+}
+
+/*--Products Page 2 --*/
+.container{
+  margin-top: 30px;
+  margin-left: 20px;
+  display: grid;
+  column-gap: 30px;
+  
+}
+
+#category1>a{
+  text-decoration: none;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category1>a>img{
+  width: 200px;
+  height: 200px;
+}
+
+#category2>a{
+  text-decoration: none;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category2>a>img{
+  width: 200px;
+  height: 200px;
+}
+
+
+/*--Contact Page 3 --*/
+#address {
+  display: block;
+  align-content:center;
+  width: 760px;
+  background-color: rgba(255, 255, 255, 0.564);
+  font-family: cursive;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 10px 30px;
+  padding-bottom: 30px;
+}
+
+#contactNumbers {
+  display: block;
+  align-content:center;
+  width: 760px;
+  background-color: rgba(255, 255, 255, 0.564);
+  font-family: cursive;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 10px 30px;
+  padding-bottom: 30px;
 }
