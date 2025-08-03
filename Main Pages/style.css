@@ -125,7 +125,7 @@ body {
   width: 800px;
   font-family: cursive;
   font-size:large;
-  margin: -1550px 30px;
+  margin: -1750px 30px;
   padding:0px 10px;
   text-align:justify;
 }
@@ -210,15 +210,16 @@ footer2{
 /*--Products Page 2 --*/
 .container{
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   display: grid;
-  grid: auto auto auto;
+  grid-template-columns: repeat(3, 250px);
   gap:10px 50px;
 }
 
 #category1>a{
   display: block;
-  width:200px;
+  width:250px;
   padding:10px;
   text-decoration: none;
   text-align: center;
@@ -231,14 +232,14 @@ footer2{
   background-color: #00fbfff8;
 }
 #category1>a>img{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   align-items: center;
 }
 
 #category2>a{
   display: block;
-  width:200px;
+  width:250px;
   padding:10px;
   text-decoration: none;
   text-align: center;
@@ -251,14 +252,14 @@ footer2{
   background-color: #00fbfff8;
 }
 #category2>a>img{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   align-items: center;
 }
 
 #category3>a{
   display: block;
-  width:200px;
+  width:250px;
   padding:10px;
   text-decoration: none;
   text-align: center;
@@ -271,14 +272,14 @@ footer2{
   background-color: #00fbfff8;
 }
 #category3>a>img{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   align-items: center;
 }
 
 #category4>a{
   display: block;
-  width:200px;
+  width:250px;
   padding:10px;
   text-decoration: none;
   text-align: center;
@@ -291,10 +292,160 @@ footer2{
   background-color: #00fbfff8;
 }
 #category4>a>img{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
+#category5>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category5>a:hover{
+  background-color: #00fbfff8;
+}
+#category5>a>img{
+  width: 250px;
+  height: 250px;
+}
+
+#category6>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category6>a:hover{
+  background-color: #00fbfff8;
+}
+#category6>a>img{
+  width: 250px;
+  height: 250px;
+}
+
+#category7>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category7>a:hover{
+  background-color: #00fbfff8;
+}
+#category7>a>img{
+  width: 250px;
+  height: 250px;
+}
+#category8>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category8>a:hover{
+  background-color: #00fbfff8;
+}
+#category8>a>img{
+  width: 250px;
+  height: 250px;
+}
+
+#category9>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category9>a:hover{
+  background-color: #00fbfff8;
+}
+#category9>a>img{
+  width: 250px;
+  height: 250px;
+}
+
+#category10>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category10>a:hover{
+  background-color: #00fbfff8;
+}
+#category10>a>img{
+  width: 250px;
+  height: 250px;
+}
+
+#category11>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category11>a:hover{
+  background-color: #00fbfff8;
+}
+#category11>a>img{
+  width: 250px;
+  height: 250px;
+}
+
+#category12>a{
+  display: block;
+  width:250px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category12>a:hover{
+  background-color: #00fbfff8;
+}
+#category12>a>img{
+  width: 250px;
+  height: 250px;
+}
 /*--Contact Page 3 --*/
 #address {
   display: block;
