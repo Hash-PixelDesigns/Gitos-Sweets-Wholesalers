@@ -212,34 +212,88 @@ footer2{
   margin-top: 30px;
   margin-left: 20px;
   display: grid;
-  column-gap: 30px;
-  
+  grid: auto auto auto;
+  gap:10px 50px;
 }
 
 #category1>a{
+  display: block;
+  width:200px;
+  padding:10px;
   text-decoration: none;
+  text-align: center;
   font-family: cursive;
   color:#f40c84df;
   font-size: large;
   text-shadow: 1px 1px #f09ed09e;
+}
+#category1>a:hover{
+  background-color: #00fbfff8;
 }
 #category1>a>img{
   width: 200px;
   height: 200px;
+  align-items: center;
 }
 
 #category2>a{
+  display: block;
+  width:200px;
+  padding:10px;
   text-decoration: none;
+  text-align: center;
   font-family: cursive;
   color:#f40c84df;
   font-size: large;
   text-shadow: 1px 1px #f09ed09e;
 }
+#category2>a:hover{
+  background-color: #00fbfff8;
+}
 #category2>a>img{
   width: 200px;
   height: 200px;
+  align-items: center;
 }
 
+#category3>a{
+  display: block;
+  width:200px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category3>a:hover{
+  background-color: #00fbfff8;
+}
+#category3>a>img{
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+
+#category4>a{
+  display: block;
+  width:200px;
+  padding:10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  color:#f40c84df;
+  font-size: large;
+  text-shadow: 1px 1px #f09ed09e;
+}
+#category4>a:hover{
+  background-color: #00fbfff8;
+}
+#category4>a>img{
+  width: 200px;
+  height: 200px;
+}
 
 /*--Contact Page 3 --*/
 #address {
