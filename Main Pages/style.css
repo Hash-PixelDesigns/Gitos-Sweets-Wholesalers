@@ -213,8 +213,9 @@ footer2{
   margin-left: 50px;
   margin-right: 50px;
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(auto-fit, 250px);
   gap:10px 50px;
+  width: auto;
 }
 
 #category1>a{
