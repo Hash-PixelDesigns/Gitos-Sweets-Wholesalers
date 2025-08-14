@@ -2,10 +2,12 @@
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(5, 180px);
+  grid-template-columns: repeat(auto-fit,180px);
   grid-template-rows: repeat(10,290px);
   gap:10px 15px;
+
 }
 
 .product {
