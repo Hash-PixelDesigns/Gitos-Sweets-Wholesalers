@@ -122,10 +122,10 @@ body {
   background-color: #ffffffae;
   color: #000016;
   z-index: index 100;
-  width: 800px;
+  width: auto;
   font-family: cursive;
   font-size:large;
-  margin: -1800px 30px;
+  margin: -1800px 1px;
   padding:0px 10px;
   text-align:justify;
 }
