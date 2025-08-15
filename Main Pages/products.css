@@ -21,8 +21,7 @@
 
 .product:hover{
   display: block;
-  background-color: #f2429ddf;
-  color: white;
+  background-color: #00fbffd9;
 }
 .product>img{
   width: 150px;
@@ -32,11 +31,12 @@
 
 .product>h4{
   display: block;
-  background-color: #00fbff84;
+  background-color: #F40C82;
   margin-top: 5px;
   padding: 5px 5px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  font-size: small;
+  color: white;
 }
 
 .product>p{
@@ -47,9 +47,10 @@
 }
 
 .product>button{
-  background-color: #00fbff84;
+  background-color: #F40C82;
   padding: 5px 5px;
   margin-top: 10px;
+  color: white;
 }
 
 .ad-container{
@@ -57,23 +58,49 @@
   margin-left: 70px;
   justify-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit,180px);
-  grid-template-rows: repeat(10,290px);
-  gap:10px 15px;
+  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-rows: repeat(10,400px);
+  gap:80px 15px;
 }
 
 .ad>button{
-  background-color: #00fbff84;
-  padding: 5px 5px;
+  background-color:  #F40C82;
+  padding: 8px 8px;
   margin-top: 10px;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  width:100px;
 }
 
 .ad>video>{
   display: block;
   justify-items: center;
-  background-color: #00fbff84;
-  padding: 5px 5px;
-  margin: 50px 50px;
+  background-color:#00fbffd9;
+}
+
+.ad>img{
+  width: 300px;
+  height: 100auto;
+  margin: auto;
+}
+
+
+
+.ad {
+  display: block;
+  background-color: #fcfcfcb5;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  height:450px;
+}
+
+.ad:hover{
+  display: block;
+  background-color: #00fbffd9;
+  color: white;
 }
 
 
