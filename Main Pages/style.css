@@ -118,15 +118,16 @@ body {
 
 #info-container1 {
   display: block;
+  position:relative;
   justify-items: center;
-  background-color: #ffffffae;
+  background-color: #ffffff6c;
   color: #000016;
   z-index: index 100;
   width: auto;
   font-family: cursive;
   font-size:small;
   margin: -1120px 10px;
-  padding:0px 10px;
+  padding:20px 10px;
   text-align:justify;
 }
 
