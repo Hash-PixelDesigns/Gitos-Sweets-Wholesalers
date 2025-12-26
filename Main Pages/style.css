@@ -76,7 +76,7 @@ body {
   font-family: cursive;
   font-weight:lighter;
   list-style: none;
-  height:25px;
+  height: 20px;
   margin: 5px 5px;
   padding-left: 30px;
   padding-inline: 25px;
@@ -89,7 +89,7 @@ body {
 }
 
 #navbar1 >ul>li:hover{
-  background-color: rgba(255, 255, 255, 0.423);
+  background-color: rgba(255, 255, 255, 0.235);
 }
 
 #navbar1 > ul > li > a{
@@ -129,6 +129,8 @@ body {
   margin: -1050px 10px;
   padding:5px 10px;
   text-align:justify;
+  text-decoration: none;
+  
 }
 
 #body-cover >p{
@@ -136,7 +138,8 @@ body {
   background-color: rgba(255, 255, 255, 0.502);
   position: center;
   justify-content: center;
-   
+  text-decoration: none;
+     
 }
 
 /*--Footer --*/
