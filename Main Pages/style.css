@@ -124,12 +124,14 @@ body {
   color: #000016;
   z-index: index 100;
   width: auto;
+  text-decoration: none;
   font-family: cursive;
-  font-size:12px;
+  font-size:11px;
   margin: -1050px 10px;
-  padding:5px 10px;
+  padding:3px 15px;
   text-align:justify;
   text-decoration: none;
+  font-weight: lighter;
   
 }
 
