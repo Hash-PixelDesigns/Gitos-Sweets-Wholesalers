@@ -132,6 +132,7 @@ body {
   text-align:justify;
   text-decoration: none;
   font-weight: lighter;
+  text-decoration-style: none;
   
 }
 
@@ -141,6 +142,7 @@ body {
   position: center;
   justify-content: center;
   text-decoration: none;
+  text-decoration-style: none;
      
 }
 
@@ -215,255 +217,255 @@ footer2{
 
 /*--Products Page 2 --*/
 .container{
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 250px);
+  grid-template-columns: repeat(auto-fit, 150px);
   gap:10px 20px;
   width: auto;
 }
 
 #category1>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category1>a:hover{
   background-color: #00fbfff8;
 }
 #category1>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   align-items: center;
 }
 
 #category2>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category2>a:hover{
   background-color: #00fbfff8;
 }
 #category2>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   align-items: center;
 }
 
 #category3>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category3>a:hover{
   background-color: #00fbfff8;
 }
 #category3>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   align-items: center;
 }
 
 #category4>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category4>a:hover{
   background-color: #00fbfff8;
 }
 #category4>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 #category5>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category5>a:hover{
   background-color: #00fbfff8;
 }
 #category5>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 #category6>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category6>a:hover{
   background-color: #00fbfff8;
 }
 #category6>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 #category7>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category7>a:hover{
   background-color: #00fbfff8;
 }
 #category7>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 #category8>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category8>a:hover{
   background-color: #00fbfff8;
 }
 #category8>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 #category9>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category9>a:hover{
   background-color: #00fbfff8;
 }
 #category9>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 #category10>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category10>a:hover{
   background-color: #00fbfff8;
 }
 #category10>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 #category11>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category11>a:hover{
   background-color: #00fbfff8;
 }
 #category11>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 #category12>a{
   display: block;
-  width:250px;
-  padding:10px;
+  width:150px;
+  padding:5px;
   text-decoration: none;
   text-align: center;
   font-family: cursive;
-  font-weight: bold;
+  font-weight: normal;
   color:#f40c84df;
-  font-size: large;
-  text-shadow: 1px 1px #f09ed09e;
+  font-size: 12px;
+  text-shadow: 1px 1px #ddced7;
 }
 #category12>a:hover{
   background-color: #00fbfff8;
 }
 #category12>a>img{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 /*--Contact Page 3 --*/
 #address {
