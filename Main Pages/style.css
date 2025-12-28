@@ -130,9 +130,8 @@ body {
   margin: -1050px 10px;
   padding:3px 15px;
   text-align:justify;
-  text-decoration: none;
   font-weight: lighter;
-  text-decoration-style: none;
+  
   
 }
 
@@ -141,8 +140,7 @@ body {
   background-color: rgba(255, 255, 255, 0.502);
   position: center;
   justify-content: center;
-  text-decoration: none;
-  text-decoration-style: none;
+ 
      
 }
 
