@@ -131,7 +131,7 @@ body {
   text-decoration: none;
   font-family: cursive;
   font-size:11px;
-  margin: -1050px 10px;
+  margin: -1045px 0px;
   padding:10px 15px;
   text-align:justify;
   font-weight: lighter;
@@ -142,7 +142,7 @@ body {
 }
 
 #body-cover >a{
-  display: block;
+  display: inline-block;
   background-color: rgba(255, 255, 255, 0.502);
   position: top;
   justify-content: center;
@@ -153,7 +153,7 @@ body {
 /*--Footer --*/
 footer{
   display: block;
-  margin: 1700px 0px;
+  margin: 1040px 0px;
   background-color: #f40c84df;
   padding: 2px 2px;
   padding-bottom: 20px;
