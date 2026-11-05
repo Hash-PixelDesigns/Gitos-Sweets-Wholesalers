@@ -192,19 +192,18 @@ footer2{
 /*--Quote-Order Form --*/
 #order-form{
   font-family: cursive;
-  padding: 5px;
 }
 
 #order-form>input{
   padding: 5px;
   font-family:Arial, Helvetica, sans-serif;
-  width: 500px;
+  width: 300px;
 }
 
 #order-form> textarea{
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  width:850px;
+  width: 100%;
   height: 500px;
  
 }
