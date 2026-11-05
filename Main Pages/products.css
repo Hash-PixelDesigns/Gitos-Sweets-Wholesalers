@@ -1,3 +1,18 @@
+/*--Top Logo+Address Bar+Nav Bar--*/
+#top-logo-NavBar 
+
+
+#top-logo > img {
+  display: block;
+  width: 100%;
+  background-color: #00F9FF;
+  padding: 10px 0px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #050003;
+  align-items: center;
+}
+
 .product-container{
   margin-top: 15px;
   margin-left: 15px;
